@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar a img {
+    width: 100px;
+}
+
+nav .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar {
+    font-family: 'Roboto', sans-serif;
+    background: #c1b6a4; 
+}
+
+.card-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.card-img-top {
+    height: 540px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.form {
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+.fs-4 {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    place-items: center;
+}
+
+/*.mt-5 {
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}*/
+
+footer {
+    background: #c1b6a4;
+    color: white;
+    display: grid;
+    place-items: center;
+}
+
+footer a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    max-width: 73px; /* Ajusta el valor según el tamaño deseado */
+    max-height: 48px;
+    margin-left: 47%;
+    margin-top: -20px;
+}

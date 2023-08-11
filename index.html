@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafío_bootstrap_rocío_mella</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid"> 
+      <a class="navbar-brand" href="#">
+        <img src="assets/imgs/logo-white.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light " href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div> 
+  </nav>
+    <section class="container mt-5">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/img1.jpg" class="card-img-top" alt="ToteBag">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Negro Conejo</h5>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-muted">todobolsas</i></a> 
+            </div>
+            <div class="card-footer text-end">
+              <small class="text-muted">Precio: $10.500</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/img2.jpg" class="card-img-top" alt="ToteBag">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Malla</h5>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-muted">todobolsas</i></a>
+            </div>
+            <div class="card-footer text-end">
+              <small class="text-muted">Precio: $12.000</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/img3.jpg" class="card-img-top" alt="ToteBag">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Hasta los huevos</h5>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-muted">todobolsas</i></a> 
+            </div>
+            <div class="card-footer text-end">
+              <small class="text-muted">Precio: $15.000</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/img4.jpg" class="card-img-top" alt="ToteBag">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Porta Vino</h5>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-muted">todobolsas</i></a>
+            </div>
+            <div class="card-footer text-end">
+              <small class="text-muted">Precio: $17.500</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/img5.jpg" class="card-img-top" alt="ToteBag">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Verde Cocodrilo</h5>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-muted">todobolsas</i></a>
+            </div>
+            <div class="card-footer text-end">
+              <small class="text-muted">Precio: $11.900</small>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card h-100">
+            <img src="assets/imgs/img6.jpg" class="card-img-top" alt="ToteBag">
+            <div class="card-body">
+              <h5 class="card-title">Bolsa Just Brown</h5>
+              <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram text-muted">todobolsas</i></a> 
+            </div>
+            <div class="card-footer text-end">
+              <small class="text-muted">Precio: $11.900</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pb-3 my-5">
+      <div class="text-white">
+        <div class="row">
+          <div class="col">
+            <p class="fs-4 mt-5">Recibe cupones en tu correo</p>
+          </div>
+          <form class="mb-3">
+            <label for="nombre" class="form-label"></label>
+            <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+            <label for="email" class="form-label"></label>
+            <input type="text" class="form-control" id="email" placeholder="Correo" required>         
+          </form>
+        </div>
+      </div>
+      <a class="btn btn-light">Enviar</a>
+    </footer>
+  <div class="logo">
+    <img src="assets/imgs/logo-black.png" class="img-fluid">
+  </div>
+  <p class="text-center text-muted"><i class="fa-regular fa-copyright">2018 Cuppon LATAM. Todos los derechos reservados</i></p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/33bf44000f.js" crossorigin="anonymous"></script>
+</body>
+</html>
